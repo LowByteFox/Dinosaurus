@@ -1,4 +1,4 @@
-import { Dinosaurus } from "./dinosaurus.ts";
+import { Dinosaurus } from "https://deno.land/x/dinosaurus@release/mod.ts";
 
 const app = new Dinosaurus();
 

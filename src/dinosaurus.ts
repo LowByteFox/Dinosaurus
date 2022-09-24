@@ -260,7 +260,6 @@ export class Dinosaurus {
 
     run = (serverPort = 3000, func?: () => void) => {
         serve(this.handler, { port: serverPort });
-        console.log("Buchta entered oven and met Bun. Both of them started talking about HTTP")
         func?.();
     }
 }
