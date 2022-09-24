@@ -1,5 +1,5 @@
 # Dinosaurus
-### HTTP framework for Deno based on ![Buchta](https://github.com/Fire-The-Fox/buchta)
+### HTTP framework for Deno ported from ![Buchta](https://github.com/Fire-The-Fox/buchta)
 
 ## Get Started
 Create empty directory
