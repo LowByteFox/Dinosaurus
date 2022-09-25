@@ -1,14 +1,22 @@
 # Dinosaurus
 ### HTTP framework for Deno ported from [Buchta](https://github.com/Fire-The-Fox/buchta)
 
+![Dinosaurus logo](./dinosaurus.png "Dinosaurus Logo")
+
 ## Get Started
 Create empty directory
 Enter the directory
-create dinosaurus.config.json
+create dinosaurus.config.json or grab one from the repository
 ```json
 {
     "webRootPath"   : "./public",
-    "cacheRootPath" : "./.cache"
+    "cacheRootPath" : "./.cache",
+    "imports": {
+    },
+    "vue-head": [
+    ],
+    "rollup-globals": {
+    }
 }
 ```
 create public directory
@@ -42,3 +50,4 @@ deno run --allow-read --allow-write --allow-net <file>
 
 ## Still not implemented
 * Working Transpilation for JSX, TSX
+* Docs
