@@ -1,7 +1,7 @@
 # Dinosaurus
 ### HTTP framework for Deno ported from [Buchta](https://github.com/Fire-The-Fox/buchta)
 
-![Dinosaurus logo](./dinosaurus.png "Dinosaurus Logo")
+![Dinosaurus logo](./dinosaurus_logo.png "Dinosaurus Logo")
 
 ## Get Started
 Create empty directory
