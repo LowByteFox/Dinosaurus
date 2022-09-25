@@ -1,5 +1,5 @@
 # Dinosaurus
-### HTTP framework for Deno ported from ![Buchta](https://github.com/Fire-The-Fox/buchta)
+### HTTP framework for Deno ported from [Buchta](https://github.com/Fire-The-Fox/buchta)
 
 ## Get Started
 Create empty directory
@@ -41,4 +41,4 @@ deno run --allow-read --allow-write --allow-net <file>
 ```
 
 ## Still not implemented
-* Working Transpilation
+* Working Transpilation for JSX, TSX
