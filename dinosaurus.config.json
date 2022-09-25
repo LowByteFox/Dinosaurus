@@ -1,0 +1,18 @@
+{
+    "webRootPath"   : "./public",
+    "cacheRootPath" : "./.cache",
+    "imports": {
+        "svelte/internal": "https://cdn.skypack.dev/svelte@latest/internal/"
+    },
+    "vue-head": [
+        "<script src=\"https://unpkg.com/primevue@^3/core/core.min.js\"></script>",
+        "<script src=\"https://unpkg.com/primevue@^3/slider/slider.min.js\"></script>",
+        "<link rel='stylesheet' href='https://unpkg.com/primevue/resources/themes/lara-dark-teal/theme.css'>",
+        "<link href=\"https://unpkg.com/primevue/resources/primevue.min.css\" rel=\"stylesheet\">"
+    ],
+    "rollup-globals": {
+        "primevue/button": "primevue.button",
+        "primevue/inputtext": "primevue.inputtext",
+        "primevue/slider": "primevue.slider"
+    }
+}

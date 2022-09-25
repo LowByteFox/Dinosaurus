@@ -47,7 +47,7 @@ export class DinosaurusCache {
             }
             if (await fileExist(`${this.cacheDir}/${newFilePath}`)) {
                 const loadedData = Deno.readTextFileSync(`${this.cacheDir}/${newFilePath}`);
-                if (!this.cacheFiles.has(fileName)) this.registerFile(fileName, loadedData);
+                this.registerFile(fileName, loadedData);
             }
             return null;
         }
