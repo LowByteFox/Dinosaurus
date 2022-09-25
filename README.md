@@ -17,7 +17,7 @@ Now you have everything set up
 
 ## Example
 ```ts
-import { Dinosaurus } from "https://deno.land/x/dinosaurus@release/mod.ts";
+import { Dinosaurus } from "https://deno.land/x/dinosaurus/mod.ts";
 
 const app = new Dinosaurus();
 
